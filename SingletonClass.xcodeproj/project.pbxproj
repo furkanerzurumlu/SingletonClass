@@ -13,6 +13,7 @@
 		DCB500C3290812B3008F30BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCB500C1290812B3008F30BF /* Main.storyboard */; };
 		DCB500C5290812B4008F30BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCB500C4290812B4008F30BF /* Assets.xcassets */; };
 		DCB500C8290812B4008F30BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCB500C6290812B4008F30BF /* LaunchScreen.storyboard */; };
+		DCB500D029081376008F30BF /* SingletonClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB500CF29081376008F30BF /* SingletonClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		DCB500C4290812B4008F30BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DCB500C7290812B4008F30BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DCB500C9290812B4008F30BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCB500CF29081376008F30BF /* SingletonClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingletonClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				DCB500C4290812B4008F30BF /* Assets.xcassets */,
 				DCB500C6290812B4008F30BF /* LaunchScreen.storyboard */,
 				DCB500C9290812B4008F30BF /* Info.plist */,
+				DCB500CF29081376008F30BF /* SingletonClass.swift */,
 			);
 			path = SingletonClass;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCB500D029081376008F30BF /* SingletonClass.swift in Sources */,
 				DCB500C0290812B3008F30BF /* ViewController.swift in Sources */,
 				DCB500BC290812B3008F30BF /* AppDelegate.swift in Sources */,
 				DCB500BE290812B3008F30BF /* SceneDelegate.swift in Sources */,
